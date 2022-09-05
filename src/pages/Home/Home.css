@@ -4,14 +4,14 @@
           margin-top: 50px;
           margin-bottom: 11px;
           border-radius: 4px;
-          width: 70%;
+          width: 100%;
           margin-left: auto;
           margin-right: auto;
 }
 
 .card-body {
           position: relative;
-          width: 50%;
+          width: 100%;
           /* transform: translate(50%, 0); */
           margin-left: auto;
           margin-right: auto;

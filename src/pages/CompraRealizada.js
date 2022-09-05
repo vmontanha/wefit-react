@@ -3,6 +3,8 @@ import Header from '../components/Header/Header';
 import compraRealizada from '../assets/compra-realizada.png'
 
 const CompraRealizada = () => {
+
+          window.localStorage.clear();
           return (
                     <>
                               <Header />
@@ -12,7 +14,7 @@ const CompraRealizada = () => {
                                                             <h1>Compra realizada com sucesso!</h1>
                                                             <img src={compraRealizada} alt="" />
                                                   </div>
-                                                  <div className='btn_add_cart-carrinho'>
+                                                  <div className='btn_add_cart-carrinho voltar'>
                                                             <a href='/' >
                                                                       VOLTAR
                                                             </a>
