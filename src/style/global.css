@@ -1,0 +1,8 @@
+.container_products {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100vw;
+          height: auto;
+          padding-bottom: 50px;
+}

@@ -1,0 +1,98 @@
+.card {
+          background-color: #fff;
+          padding: 20px 10px 20px;
+          margin-top: 50px;
+          margin-bottom: 11px;
+          border-radius: 4px;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+}
+
+.card-body {
+          position: relative;
+          width: 50%;
+          /* transform: translate(50%, 0); */
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+}
+
+.card-body img {
+          width: 100%;
+}
+
+.card-body h3 {
+
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 16px;
+          text-align: center;
+
+          color: #333333;
+
+}
+
+.card p {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 14px;
+          text-align: left;
+
+          color: #2F2E41;
+
+}
+
+.btn_add_cart {
+          position: relative;
+          display: block;
+          width: 100%;
+}
+
+.btn_add_cart button {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 12px;
+          line-height: 16px;
+          text-align: center;
+          background: #009EDD;
+          border-radius: 4px;
+          color: #FFFFFF;
+          width: 100%;
+          border: none;
+          padding: 11px;
+          outline: none;
+}
+
+.btn_add_cart button:active {
+          background-color: #23c1ff;
+}
+
+.btn_add_cart img {
+          position: absolute;
+          top: 50%;
+          left: 5%;
+          transform: translate(-0, -50%);
+}
+
+.btn_add_cart p {
+          position: absolute;
+          top: 50%;
+          left: 12%;
+          transform: translate(-0, -120%);
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          /* identical to box height */
+
+          text-align: center;
+
+          color: #FFFFFF;
+}
