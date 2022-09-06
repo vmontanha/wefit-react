@@ -71,7 +71,7 @@ const Carrinho = () => {
                                                                                                               <img src={plusIcon} alt='' onClick={() => updateItemQuantity(item.id, item.quantity + 1)} />
                                                                                                     </div>
                                                                                           </div>
-                                                                                          <h5 className='subtotal'>R${cartTotal.toFixed(2)}</h5>
+                                                                                          <h5 className='subtotal'>R${(item.price * item.quantity)}</h5>
                                                                                           <img src={trashIcon} alt='' className='trash-img' onClick={() => removeItem(item.id)} />
 
                                                                                 </div>
@@ -85,7 +85,7 @@ const Carrinho = () => {
                                                                                           </div>
                                                                                           <div className='box-total'>
                                                                                                     <h2>TOTAL</h2>
-                                                                                                    <h4>R$ {cartTotal.toFixed(2)}</h4>
+                                                                                                    <h4>R$ {(item.price * item.quantity)}</h4>
                                                                                           </div>
                                                                                 </div>
                                                                       </div>
