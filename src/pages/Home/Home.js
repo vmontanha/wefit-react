@@ -18,6 +18,7 @@ const Home = () => {
                                         console.error("ops! ocorreu um erro" + err);
                               });
           }, []);
+
           const { addItem } = useCart();
           return (
                     <>
@@ -34,8 +35,7 @@ const Home = () => {
                                                                       <p>R$ {item.price}</p>
                                                                       <div className='btn_add_cart'>
                                                                                 <img src={cartBtn} alt='' />
-                                                                                <button onClick={
-                                                                                          () => addItem(item)}>
+                                                                                <button onClick={() => addItem(item)}>
                                                                                           ADICIONAR AO CARRINHO
                                                                                 </button>
                                                                       </div>
